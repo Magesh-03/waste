@@ -1,18 +1,15 @@
+
 *{
-margin: 0px;
-padding:0px;
+margin: 0;
+
 
 }
 
 
+h1{
 
-.top{
-color: aliceblue;
+color:white;
 background-color: black;
-height: 200px;
 
 }
-li,ul{
-display: inline;
-margin-left: 50%;
-}
+    
