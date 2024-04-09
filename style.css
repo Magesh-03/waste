@@ -1,0 +1,18 @@
+*{
+margin: 0px;
+padding:0px;
+
+}
+
+
+
+.top{
+color: aliceblue;
+background-color: black;
+height: 200px;
+
+}
+li,ul{
+display: inline;
+margin-left: 50%;
+}
