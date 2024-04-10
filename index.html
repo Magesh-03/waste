@@ -1,12 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bio Data</title>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> techincal Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>magesh</h1>
+  <nav id="navbar">
+    <header><h1>JavaScript Basic Tutorial</h1></header>
+<ul id="ul-navbar">
+  <li>
+    <a class="nav-link" href="#javascript-home">javascript-home</a>
+  </li>
+  <li>
+      <a class="nav-link" href="#javascript-overview">javascript-overview</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#javascript-syntax">javascript-syntax</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#javascript-Enabling">javascript-Enabling</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#javascript-Placement">javascript-Placement</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#javascript-variable">javascript-variable</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#JavaScript-for-loop">javaScript-for-loop</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#javascript-Cookes">javascript-Cookes</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#javascript-Page Printing">javascript-Page Printing</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#JavaScript-loop Control">JavaScript-loop Control</a>
+    </li>
+  
+    
+</ul>
+  
+  </ul>
+    </nav>
+  
+  <main id="main-doc">
+    <section class="main-section"id=Introduction>
+      <h1>Introduction</h1>
+<p>JavaScript is a Versatile Language
+
+  JavaScript-based frameworks like Node, React, Angular, React-Native, and so on makes the language so versatile that you can build a complete application by just using JavaScript.
+  
+  Not only that, you can build desktop, web, and mobile applications by only using JS.</p>
+
+  <ul>
+    <li>Most Popular Programming Language
+
+      Yes, it is the world's most popular programming language and by a significant margin. There are many reasons that contribute to its popularity.</li>
+
+  </ul>
+
+    </section>
+<section class="main-section" id="javascript-home">
+  <header><h1>javascript-home</h1></header>
+  <ol><h4>Header Section: </h4>
+    
+    <li>This section includes a heading "Explore JavaScript" and a paragraph describing the purpose of the page.
+    It also has a button labeled "Click me!" that, when clicked, triggers a JavaScript function showAlert() which shows an alert with a message.
+    About Section (#aboutContent):</li>
+    
+    <li>This section provides information about JavaScript, including its versatility and usage in web development.
+    Contact Section (#contactContent):</li>
+    
+   <li >Here, there's a heading "Contact Us" and a form with input fields for Name, Email, and Message, along with a "Send Message" button.
+    JavaScript Functionality:</li>
+    
+   <li> showAlert(): This function displays an alert with a message when the "Click me!" button in the Home section is clicked.
+    Navigation Links: The navigation links (Home, About, Contact) are set up to toggle between different content sections (#homeContent, #aboutContent, #contactContent) when clicked.
+    CSS Styling (styles.css):</ol>
+    
+   <li>The CSS file contains styles for the header, navigation menu, content sections, form inputs, buttons, and overall layout.
+    It uses classes like .content to style the main sections and .hidden to initially hide the About and Contact sections until their respective navigation links are clicked.
+    This JavaScript home page demonstrates basic interactivity with a button click event and navigation functionality to switch between different content sections on the same page. It's a simple example to showcase JavaScript features in a web page context</li></ol></li>
+  
+  </section>
+
+<section class="main-section" id="javascript-overview">
+  <header><h1>javascript-overview</h1></header>
+  <p><ol> <h4>What is JavaScript?</h4>
+   <li> JavaScript is a high-level, interpreted programming language primarily used for client-side web development. It allows you to create dynamic and interactive content on web pages.
+    
+    History of JavaScript:
+    JavaScript was developed by Brendan Eich at Netscape Communications Corporation in 1995. Initially named LiveScript, it was later renamed JavaScript when it was standardized as ECMAScript by ECMA International.</li>
+    
+   <h4> Features of JavaScript:</h4>
+    
+    <li>Client-Side Scripting: JavaScript is mainly used for client-side scripting, meaning it runs on the user's browser and can manipulate the Document Object Model (DOM) of a web page.
+    Dynamic and Interactive: JavaScript allows you to create dynamic and interactive web elements, such as animations, form validations, and interactive menus.
+    Event Handling: You can handle various events like mouse clicks, keyboard input, form submissions, etc., using JavaScript.
+    Asynchronous Programming: JavaScript supports asynchronous programming using callbacks, promises, and async/await, which is essential for handling tasks like fetching data from servers without blocking the UI.
+    Cross-Platform: JavaScript is supported by all major web browsers, making it a cross-platform language for web development.
+    Where JavaScript is Used:
+    JavaScript is primarily used for:</li>
+    
+    
+    
+   <h4> Variables:</h4> <li>let, const, var
+    Data Types: Number, String, Boolean, Array, Object, Null, Undefined
+    Operators: Arithmetic, Comparison, Logical, Assignment, Ternary
+    Control Structures: if...else, switch, for loop, while loop, do...while
+    Functions: Declaring functions, Arrow functions, Callbacks, Higher-order functions
+    Objects and Classes: Creating objects, Prototypes, Classes (ES6+)
+    DOM Manipulation: Accessing and modifying HTML elements, Event handling</li>
+    <h4>Libraries and Frameworks:</h4>
+    JavaScript has a vast ecosystem of libraries and frameworks that extend its capabilities and simplify development tasks. Some popular libraries/frameworks include jQuery, React.js, Angular, Vue.js, Express.js, and many more.
+    
+   
+    .</ol></p>
+</section>
+<section class="main-section" id="javascript-syntax">
+  <header><h1>javascript-syntax</h1></header>
+  <p><ol><h4>Statements</h4> 
+    <li>JavaScript code is composed of statements, which are instructions that perform actions or calculations. Statements are typically terminated by a semicolon (;), although in some cases, it's optional due to automatic semicolon insertion (ASI).
+      <code>let x = 5; // Variable declaration statement
+        console.log("Hello, World!"); // Function call statement
+        
+      </code>
+    </li>
+    <h4>Variables and Data Types</h4>
+    <li>JavaScript uses variables to store data, and it supports various data types such as numbers, strings, booleans, objects, arrays, functions, etc. Variable names must follow certain rules, like starting with a letter, underscore, or dollar sign, and can contain letters, numbers, underscores, and dollar signs.
+      <code>let name = "John"; // String variable
+        let age = 30; // Number variable
+        const PI = 3.14; // Constant variable
+        let isTrue = true; // Boolean variable
+        let fruits = ['apple', 'banana', 'orange']; // Array variable
+        </code></li>
+    
+    <h4>Objects and Classes</h4>
+    <li>JavaScript supports object-oriented programming concepts, where objects are instances of classes or prototypes. Objects contain properties and <code>// Object literal syntax
+      let person = {
+        name: "John",
+        age: 30,
+        greet: function() {
+          console.log("Hello, my name is " + this.name);
+        }
+      };
+      
+      console.log(person.name);
+      person.greet();
+      </code></li></ol>
+</section>
+<section class="main-section" id="javascript-Enabling">
+  <header><h1>javascript-Enabling</h1></header>
+  <p><ol>
+   <h4>Chrome</h4>
+      <li>
+      Open Chrome and click on the three dots menu (⋮) at the top right corner.
+      Go to "Settings" > "Privacy and security" > "Site settings" > "JavaScript".
+      Ensure that "Allowed (recommended)" is selected to enable JavaScript.</li>
+   <h4>Fire Fox</h4>
+      <li>Open Firefox and click on the three horizontal lines menu (≡) at the top right corner.
+        Go to "Options" > "Privacy & Security" > "Permissions".
+        Check the box next to "Enable JavaScript" to enable it.</li>
+    <h4>Edge</h4>
+        <li>On macOS, open Safari and go to "Safari" > "Preferences" > "Security".
+          Check the box next to "Enable JavaScript" to enable it.
+          On iOS, go to "Settings" > "Safari" and toggle the "JavaScript" switch.</li></ol></p>
+   <h4>Node.Js Enviroment</h4>
+       <ol>
+        
+        <h4>  Node.js:</h4>
+        <li>
+          By default, Node.js includes the V8 JavaScript engine, so JavaScript is already enabled when you run Node.js applications.
+          Ensure that your Node.js application code includes JavaScript syntax and functions as 
+       </li>
+      </ol>   
+</section>
+<section class="main-section" id="javascript-Placement">
+  <header><h1>javascript-Placement</h1></header>
+<p><ol>
+  <h4> Inline JavaScript</h4>
+  <li>Inline JavaScript refers to writing JavaScript code directly within HTML elements or attributes. While it's not recommended for complex scripts, it can be used for simple interactions or quick prototypes.</li>
+<code><!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline JavaScript Example</title>
+  </head>
+  <body>
+    <button onclick="alert('Hello, World!')">Click me</button>
+  </body>
+  </html>
+  </code>
+  <h4>Internal JavaScript</h4>
+<li>Internal JavaScript refers to placing JavaScript code</li>
+<code><!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal JavaScript Example</title>
+    <script>
+      function greet() {
+        alert('Hello, World!');
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="greet()">Click me</button>
+  </body>
+  </html>
+  </code>
+  <h4>Frameworks and Libraries:</h4>
+  <li>When using JavaScript frameworks or libraries like React, Angular, or Vue.js, follow their specific guidelines for organizing and placing JavaScript code. These frameworks often have dedicated files and folders for components, services, and utilities.
+
+    Best Practices:
+    Separation of Concerns: Keep HTML, CSS, and JavaScript separate for better maintainability.</li>
+</ol></p>
+</section>
+
+<section class="main-section" id="javascript-variable">
+  <header><h1>javascript-variable</h1></header>
+  <p><ol>
+    <h4>Declaration and Initialization:</h4>
+    <li>You can declare a variable using the var, let, or const keywords. The var keyword is older and has global or function scope, while let and const have block scope (limited to the nearest enclosing block)</li>
+    
+    <code>var x; // Declaration
+      x = 10; // Initialization
+      </code>
+      <h4>Data type</h4>
+      <li>JavaScript variables can hold different data types, including:</li>
+      <ul>
+<li>Numbers: let num = 10;</li>
+<li>Strings: let name = "John";</li>
+<li>Booleans: let isTrue = true;</li>
+<li>Arrays: let fruits = ['apple', 'banana', 'orange'];</li>
+<li>Objects: let person = { name: 'Alice', age: 30 };</li>
+<li>Null and Undefined: let value = null; let data; // data is undefined</li>
+      </ul>
+  </ol></p>
+</section>
+<section class="main-section" id="JavaScript-for-loop">
+  <header><h1>JavaScript-for-loop</h1></header>
+  <p><ol>
+    <li>The for loop in JavaScript is a control flow statement that allows you to execute a block of code repeatedly based on a specified condition. It's commonly used when you know the number of iterations in advance. Here's the syntax of a for loop:</li>
+  <code>for (initialization; condition; increment/decrement) {
+    // Code to be executed
+  }
+  </code>
+  <li><ul><li>Initialization: It's where you initialize the loop variable. This is executed only once before the loop starts.</li>
+  <li>Condition: It's the condition that is checked before each iteration. If the condition evaluates to true, the loop continues. If false, the loop terminates.</li>
+  <li>Increment/Decrement: It's used to update the loop variable after each iteration. It can be an increment (i++) or decrement (i--) operation.</li>
+  <li>Here's an example of a for loop that counts from 1 to 5:</li>
+  <code>for (let i = 1; i <= 5; i++) {
+    console.log(i); // Outputs: 1, 2, 3, 4, 5
+  }
+  </code>
+  </ul></li>
+  </ol></p>
+</section>
+<section class="main-section" id="javascript-Cookes">
+  <header><h1>javascript-Cookes</h1></header>
+  <p><ol><h1>Setting a cooke</h1>
+    <li>To set a cookie, you use the document.cookie property. The cookie value is a string in the format name=value; expires=expiration_date; path=path_value</li>
+   <code>document.cookie = "username=John Doe; expires=Thu, 31 Dec 2024 23:59:59 GMT; path=/";
+  </code>
+  <h4>Getting a Cokkies</h4>
+    <li>To retrieve a cookie, you can access the document.cookie property. It returns a string containing all cookies for the current domain.</li>
+   <code>let allCookies = document.cookie;
+    console.log(allCookies); // Outputs: "username=John Doe; other_cookie=value;"
+    </code>
+    <h4>Cookie Options:</h4>
+    <li>Secure: You can set the secure attribute to ensure that the cookie is sent only over HTTPS connections.
+      SameSite: This attribute helps prevent cross-site request forgery (CSRF) attacks by restricting when cookies are sent.
+      Domain: Specifies the domain for which the cookie is valid. By default, it's valid for the current domain.</li>
+      <code>document.cookie = "username=John Doe; secure; SameSite=Strict; domain=example.com; path=/";
+      </code>
+  </ol></p>
+</section>
+<section class="main-section" id="javascript-Page Printing">
+  <header><h1>javascript-Page Printing</h1></header>
+  <p><ol><li>
+    To enable page printing in JavaScript, you can use the window.print() method. This method opens the Print dialog box, allowing the user to print the current web page. Here's how you can implement it:</li>
+  <code><!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Print Page Example</title>
+    </head>
+    <body>
+      <h1>Welcome to My Web Page</h1>
+      <p>This is a sample web page for printing demonstration.</p>
+      <button onclick="printPage()">Print Page</button>
+    
+      <script>
+        function printPage() {
+          window.print();
+        }
+      </script>
+    </body>
+    </html>
+    </code>
+  
+  
+  </ol></p>
+</section>
+<section class="main-section" id="JavaScript-loop Control">
+  <header><h1>JavaScript-loop Control</h1></header>
+  <p><ol><li><h4>break statement:</h4>
+  </li>
+  <ul>
+    <li>The break statement is used to exit a loop prematurely, without completing all iterations.</li>
+    <li>It's commonly used to terminate a loop based on certain conditions</li>
+    <code>for (let i = 0; i < 5; i++) {
+      if (i === 3) {
+        break; // Exit the loop when i equals 3
+      }
+      console.log(i);
+    }
+    </code>
+
+  </ul>
+ <li><h4>continue statement:</h4></li> 
+  <ul><li>The continue statement is used to skip the current iteration of a loop and proceed to the next iteration.
+    It's often used to skip specific values or conditions within a loop.</li>
+  <code>for (let i = 0; i < 5; i++) {
+    if (i === 2) {
+      continue; // Skip the current iteration when i equals 2
+    }
+    console.log(i);
+  }
+  </code>
+  </ul>
+  
+  <li><h4>return statement in functions:</h4></li>
+  <ul><li>In JavaScript functions, the return statement is used to exit the function and optionally return a value.</li>
+  <li>When used inside a loop in a function, it can terminate the loop and exit the function early.</li>
+<code>function findNumber(arr, num) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === num) {
+      return true; // Exit the loop and function if the number is found
+    }
+  }
+  return false; // Return false if the number is not found
+}
+
+const numbers = [1, 2, 3, 4, 5];
+console.log(findNumber(numbers, 3)); // Output: true
+console.log(findNumber(numbers, 6)); // Output: false
+</code>
+</ul>
+  </ol></p>
+
+    
+</section>
+  </main>
 </body>
 </html>
+
+
+
+
+
